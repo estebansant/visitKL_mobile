@@ -1,0 +1,20 @@
+{
+  "name": "visitkl_mobile",
+  "version": "1.0.0",
+  "description": "This is the mobile app for the VisitKL project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebansant/visitKL_mobile.git"
+  },
+  "keywords": [],
+  "author": "Esteban Santiago <estebansant30@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebansant/visitKL_mobile/issues"
+  },
+  "homepage": "https://github.com/estebansant/visitKL_mobile#readme"
+}
