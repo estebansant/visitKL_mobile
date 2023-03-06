@@ -239,6 +239,7 @@ main {
   line-height: 18px;
   color: #FFFFFF;
   text-align: center;
+  margin-top: 18px;
 }
 .content__container--links a {
   font-family: "Poppins", sans-serif;

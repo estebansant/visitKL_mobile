@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Eina01";
+  src: url("../fonts/Eina01-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Eina01";
+  src: url("../fonts/Eina01-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Eina01";
+  src: url("../fonts/Eina01-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Eina02";
+  src: url("../fonts/Eina02-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Eina02";
+  src: url("../fonts/Eina02-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Eina02";
+  src: url("../fonts/Eina02-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Eina03";
+  src: url("../fonts/Eina03-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Eina03";
+  src: url("../fonts/Eina03-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Eina03";
+  src: url("../fonts/Eina03-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Eina04";
+  src: url("../fonts/Eina04-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Eina01", sans-serif;
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: #F4F4F4;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=home.css.map */
