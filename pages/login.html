@@ -8,26 +8,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/login.css" />
-    <title>VisitKL</title>
+    <title>Log in | VisitKL</title>
 </head>
 <body>
     <header>
         <img src="../src/logos/visitKL_logo1.png" alt="visitKL logo" />
+        <h1>Sign Up</h1>
     </header>
     <main>
         <section class="content">
             <div class="content__cover"></div>
             <form class="content__container">
                 <h1 class="content__container--title">Sign in</h1>
-                <label class="content__container--subtitle">
+                <label class="content__container--input" for="username">
                     <span>Username</span>
-                    <input type="username" />
+                    <div class="content__container--input__wrapper">
+                        <img src="../src/icons/mail_grey.svg" alt="email icon"/>
+                        <input type="username" id="username" placeholder="Enter Username"  required/>
+                    </div>
                 </label>
-                <label class="content__container--subtitle">
+                <label class="content__container--input" for="password">
                     <span>Password</span>
-                    <input type="password" placeholder="password"/>
+                    <div class="content__container--input__wrapper">
+                        <img src="../src/icons/lock_grey.svg" alt="password icon"/>
+                        <input type="password" id="password" placeholder="Enter Password" required/>
+                    </div>
                 </label>
-                <input type="button" />
+                <label class="content__container--checkbox" for="remember">
+                    <div class="content__container--checkbox__container">
+                        <input class="content__container--checkbox__container--box" type="checkbox" id="remember"/>
+                        <span class="content__container--checkbox__container--cover"></span>
+                    </div>
+                    <span>Remember me</span>
+                </label>
+                <a class="content__container--submit" href="./home.html">Sign In</a>
+                <a class="content__container--forgot">
+                    Forgot Password?
+                </a>
+                <p class="content__container--links">
+                    <a href="./signup.html"> Sign Up Now</a> or login as <a href="./signup.html">Guest</a>
+                </p>
             </form>
         </section>
     </main>
