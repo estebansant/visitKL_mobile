@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/gallery-form.css" />
+    <title>Gallery Form | VisitKL</title>
+</head>
+<body>
+    <header>
+        <a class="back" href="">
+            <img src="../src/icons/chevron_back.svg" alt="chevron back" />
+        </a>
+        <a class="header__left" href="./profile.html">
+            <img src="../src/images/profile_pic.png" alt="profile picture" />
+            <p>Hello,<br/><b>Nik Syazwan!</b></p>
+        </a>
+        <a class="header__right" href="./menu.html">
+            <img src="../src/icons/menu.svg" alt="menu"/>
+        </a>
+    </header>
+    <main class="main">
+        <section class="content">
+
+            <!-- Top -->
+            <div class="content__top">
+                <img class="content__top--title" src="../src/logos/gallery_form_title.png" alt="gallery form title"/>
+                <div class="content__top--links">
+                    <a class="content__top--links__item" href="./gallery_form.html">
+                        <img class="content__top--links__item--grey" src="../src/icons/upload_grey.svg" alt="upload"/>
+                    </a>
+                    <a class="content__top--links__item" href="">
+                        <img src="../src/icons/grid_black.svg" alt="grid"/>
+                    </a>
+                    <a class="content__top--links__item" href="./gallery_reels.html">
+                        <img src="../src/icons/video_black.svg" alt="video"/>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <form class="form__container">
+                <p class="form__container--text">
+                    Memories are made to be remembered.<br/>
+                    Today’s special moments are tomorrow’s priceless moment.
+                    Share yours with us. Upload your pictures, videos or even both!
+                </p>
+                <label class="form__container--fill" for="description">
+                    <span>Description</span>
+                    <textarea id="description" placeholder="Fill in here" required></textarea>
+                </label>
+                <label class="form__container--fill" for="tags">
+                    <span>Tagged Words</span>
+                    <input type="text" id="tags" placeholder="Ex: Architecture, Food, Arts and Culture" required></input>
+                </label>
+                <label class="form__container--fill" for="name">
+                    <span>Name</span>
+                    <input type="text" id="fill" placeholder="Fill in here" required></input>
+                </label>
+                <label class="form__container--fill" for="email">
+                    <span>Email</span>
+                    <input type="email" id="email" placeholder="Fill in here" required></input>
+                </label>
+                <label class="form__container--file" for="file">
+                    <span>Upload your file here</span>
+                    <div class="form__container--file__cover">
+                        <input type="file" id="file" placeholder="Fill in here" required></input>
+                    </div>
+                </label>
+                <a class="form__container--submit" href="./gallery_form_thanks.html">Submit</a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="./home.html">
+            <img src="../src/icons/home_cherry-red.svg" alt="home icon"/>
+        </a>
+    </footer>
+</body>
+</html>
