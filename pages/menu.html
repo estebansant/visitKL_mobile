@@ -7,23 +7,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
     <title>Menu | VisitKL</title>
 </head>
 <body>
     <header>
-        <div>
-            <img />
-            <p></p>
-        </div>
-        <a href="">
-            <img src="" alt="menu"/>
+        <a class="back" href="">
+            <img src="../src/icons/chevron_back.svg" alt="chevron back" />
+        </a>
+        <a class="header__left" href="./profile.html">
+            <img src="../src/images/profile_pic.png" alt="profile picture" />
+            <p>Hello,<br/><b>Nik Syazwan!</b></p>
+        </a>
+        <a class="logout" href="./login.html">
+            <img src="../src/icons/logout_white.svg" alt="logout" />
         </a>
     </header>
-    <main>
+    <main class="main">
         <section class="content">
+            <h1 class="content__title">All Menu</h1>
+
+            <section class="content__links">
+                <div class="content__links--grid">
+                    <a class="content__links--item" href="./things_to_do.html">
+                        <img src="../src/icons/things_to_do.svg" alt="things to do" />
+                        <h2>Best Things<br/>To Do</h2>
+                    </a>
+                    <a class="content__links--item" href="./gallery.html">
+                        <img src="../src/icons/gallery.svg" alt="Gallery" />
+                        <h2>Gallery</h2>
+                    </a>
+                    <a class="content__links--item" href="./e-form.html">
+                        <img src="../src/icons/e-form.svg" alt="e-Form" />
+                        <h2>e-Form</h2>
+                    </a>
+                    <a class="content__links--item" href="./whats_on.html">
+                        <img src="../src/icons/whats_on.svg" alt="whats_on" />
+                        <h2>What’s On</h2>
+                    </a>
+                    <a class="content__links--item" href="./products.html">
+                        <img src="../src/icons/products.svg" alt="products" />
+                        <h2>Product &<br/>Services</h2>
+                    </a>
+                    <a class="content__links--item" href="./deals.html">
+                        <img src="../src/icons/deals.svg" alt="deals"/>
+                        <h2>Deals &<br/>Packages</h2>
+                    </a>
+                </div>
+                <div class="content__links--flex">
+                    <a class="content__links--item" href="./faq.html">
+                        <img src="../src/icons/faq.svg" alt="faq" />
+                        <h2>FAQ</h2>
+                    </a>
+                    <a class="content__links--item" href="">
+                        <img src="../src/icons/share.svg" alt="share" />
+                        <h2>Share Apps</h2>
+                    </a>
+                </div>
+            </section>
             
         </section>
     </main>
+    <footer>
+        <a href="./home.html">
+            <img src="../src/icons/home_cherry-red.svg" alt="home icon"/>
+        </a>
+    </footer>
 </body>
 </html>

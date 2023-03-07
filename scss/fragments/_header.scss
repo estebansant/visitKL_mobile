@@ -17,10 +17,6 @@ header{
         position: absolute;
         left: 30px;
     }
-    .logout{
-        position: absolute;
-        right: 30px;
-    }
 }
 .header__left{
     height: fit-content;
@@ -42,6 +38,10 @@ header{
         margin-bottom: 12px;
         text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
     }
+}
+.header__right{
+    position: absolute;
+    right: 30px;
 }
 main{
     height: 100vh;
