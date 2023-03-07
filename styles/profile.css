@@ -82,10 +82,6 @@ header {
   left: 0;
   right: 0;
 }
-header img {
-  position: absolute;
-  left: 30px;
-}
 header h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -94,8 +90,12 @@ header h1 {
   color: #FFFFFF;
   text-align: center;
 }
+header a {
+  position: absolute;
+  right: 30px;
+}
 
-.main {
+main {
   height: 100vh;
   width: 100vw;
   max-width: 100vw;
@@ -132,6 +132,15 @@ header h1 {
   color: #FFFFFF;
   text-align: center;
   margin-top: 18px;
+}
+.top__profile--login {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 11px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 12px;
   margin-bottom: 12px;
 }
 
@@ -206,6 +215,18 @@ header h1 {
   border: none;
   margin-top: 6px;
 }
+.middle__form--change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 22.5px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 12px;
+}
 .middle__form--button {
   width: 262px;
   height: 50px;
@@ -259,7 +280,21 @@ header h1 {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
-/*# sourceMappingURL=signup.css.map */
+footer {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=profile.css.map */
