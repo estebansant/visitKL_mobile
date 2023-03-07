@@ -181,4 +181,165 @@ main {
   text-align: left;
 }
 
+.content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content__logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content__info {
+  font-family: "Eina01", sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 19.5px;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 18px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.content__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.content__slider {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+.content__slider--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content__slider--item__circle {
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #005BAA;
+  padding: 3px;
+  margin-bottom: 13px;
+}
+.content__slider--item h3 {
+  font-family: "Eina03", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content__cards {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+.content__cards--item {
+  width: auto;
+  height: 38px;
+  border-radius: 8px;
+  border: 1.5px solid #005BAA;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+.content__cards--item h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: #005BAA;
+  text-align: center;
+}
+.content__portal {
+  width: fit-content;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("../src/images/website_visitKL.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 30px;
+  position: relative;
+}
+.content__portal h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: left;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-bottom: 8px;
+}
+.content__portal p {
+  max-width: 330px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: left;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-bottom: 25px;
+}
+.content__portal a {
+  position: absolute;
+  bottom: 14px;
+  right: 50px;
+  width: 125px;
+  height: 33px;
+  border-radius: 20px;
+  background-color: #E51C21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 /*# sourceMappingURL=home.css.map */
