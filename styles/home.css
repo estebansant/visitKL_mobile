@@ -84,7 +84,7 @@ header {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   max-width: 100vw;
   box-sizing: border-box;
@@ -188,6 +188,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-bottom: 80px;
 }
 .content__logo {
   margin-top: 10px;
@@ -328,7 +330,7 @@ main {
   text-align: center;
 }
 
-footer {
+.footer {
   width: 100vw;
   height: 60px;
   display: flex;
